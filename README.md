@@ -1,2 +1,5 @@
-# Assignments
-Zuri assignments weeks 3-5
+
+# Week 3
+
+Week 3 assignments.
+

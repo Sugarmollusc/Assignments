@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration</title>
+</head>
+<style>
+	table {
+		border: 1px solid;
+		border-collapse: collapse;
+		width: 40%;
+	}
+	th, td {
+		padding: 15px;
+	}
+	#left {
+		padding-left: 20px;
+	}
+	.heading {
+		font-family: Arial, Helvetica, sans-serif;
+		background-color: #04AA6D;
+		color: white;
+	}
+	input[type=submit] {
+		background-color: #04AA6D;
+		border: none;
+		color: white;
+		padding: 16px 32px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+</style>
+<body>
+<center>
+	<form action="success.html" method="POST"></form> 
+		<table>
+			<tr class="heading">
+				<td colspan="2" id="left">
+					<h3>Create an account</h3>
+				</td>
+			</tr>
+			<tr>
+				<td id="left">
+					<input type="text" name="fname" id="fname" placeholder="First Name" required>
+				</td>
+				<td>
+					<input type="text" name="lname" id="lname" placeholder="Last Name" required>
+				</td>
+			</tr>
+			<tr >
+				<td colspan="2" id="left">
+					<input type="tel" name="pnumber" id="pnumber" placeholder="Phone number" required>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" id="left">
+				<input type="email" name="mail" id="mail" placeholder="Email" required>
+				</td>
+			</tr>
+			<tr>
+				<td id="left">
+					<label for="gender">Gender</label>
+				</td>
+				<td>
+					<select name="gender" id="gender" required>
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+						<option value="NotSay">I'd rather not say</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td id="left">
+					<label for="dob">Date Of Birth</label>
+				</td>
+				<td>
+					<input type="date" required>
+				</td>
+			</tr>
+			<tr>
+				<td id="left">
+					<label for="colourpicker">Favourite Colour</label> 
+				</td>
+				<td>
+					<input type="color" id="colorpicker" required> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<label for="pwd">Password (at least 8 characters)</label>
+				</td>
+				<td>
+				<input type="password" name="pwd" id="pwd" minlength="8" required>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<center>
+						<a href="success.html"><input type="submit"></a>
+					</center>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<p><small>Already have an account? Log in <a href="login.html">here</a></small></p>
+</center>
+</body>
+</html>

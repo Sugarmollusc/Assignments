@@ -1,0 +1,124 @@
+html {
+    width: 1300px;
+    height: 1000px;
+    top: ;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+body {
+    position: absolute;
+    left: 60px;
+
+}
+h1 {
+    position: relative;
+    left: 40px;
+    font-size: 70px;
+    text-shadow:
+    /* White glow */
+    0 0 11px #fff,
+    /* Pink glow */
+    0 0 21px #ff00a6;
+   }
+main {
+    
+    background-color: #323345;
+    align-items: center;
+    width: 1200px;
+    height: 537px;
+    
+}
+.navbar {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    position: absolute;
+    height: 27px;
+    /*height same as line height*/
+    top: 27px;
+    box-sizing: border-box width 200px margin 20px;
+    width: 200px; 
+
+}
+.relative {
+    position: relative;
+    top: 70px;
+    left: 900px;
+    width: fit-content;
+
+}
+img {
+    position: absolute;
+    top: 120px;
+    left: 350px;
+
+}
+.relname {
+    position: relative;
+    top: 200px;
+    width: fit-content;
+
+}
+.relabout {
+    background-color: #222534;
+    box-sizing: border-box;
+    width: 1200px;
+    height: 400px;
+    margin: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    position: relative;
+    top: -1px;
+    left: -20px;
+}
+span {
+    font-size: smaller;
+    font-weight: lighter;
+}
+a:link {
+    color: #fc32b6;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:visited {
+    color: #fc32b6;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    color: #fc32b6;
+    text-decoration: none;
+    cursor: pointer;
+}
+.more {
+    font-size: 16px;
+    position: absolute;
+    top: 240px;
+    left: 857px;
+    box-sizing: content-box;
+    width: 200px;
+
+}
+h2 {
+    font-size: 50px;
+    position: absolute;
+    top: 100ps;
+    left: 140px;
+}
+table {
+    text-align: left;
+    padding: 10px;
+
+    position: relative;
+    left: 500px;
+    top: 100px;
+    width: 40%;
+    
+}
+td {
+    padding: 5px;
